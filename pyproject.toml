@@ -1,0 +1,14 @@
+[project]
+name = "vapourizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic-ai>=0.4.2",
+    "crawl4ai>=0.1.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.ci.artifacts.walmart.com/artifactory/api/pypi/public-cloud-pypi/simple/"
+default = true
